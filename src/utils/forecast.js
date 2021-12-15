@@ -14,6 +14,7 @@ const forecast = (address, callback) => {
             callback(undefined, {
                 climate: body.current.weather_descriptions[0],
                 Current_Degree: body.current.temperature,
+                feels_like: body.current.feelslike,
                 Chance_of_Rain: body.current.precip
             })
         }
