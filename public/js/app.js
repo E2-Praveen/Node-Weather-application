@@ -27,7 +27,7 @@ weatherForm.addEventListener('submit', (e) => {
 
                 messageOne.textContent = 'Location: '+data.location
                 messageTwo.textContent = weather
-                messageThree.textContent = curren_degree
+                messageThree.textContent = curren_degree+'°C'
                 messageFour.textContent = chance_rain
             }
         })
